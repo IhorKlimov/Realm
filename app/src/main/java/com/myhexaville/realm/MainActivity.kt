@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
             val person = User()
             person.name = "Ihor"
             person.age = 25
-//            realm.copyToRealm(person)
+            realm.copyToRealm(person)
         }
 
         // Find the first person (no query conditions) and read a field
